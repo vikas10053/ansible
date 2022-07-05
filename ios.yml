@@ -1,5 +1,4 @@
 -  name: vikas
-   hosts: ios
    gather_facts: false
    tasks:
     -  name: kumar
