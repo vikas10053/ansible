@@ -1,0 +1,11 @@
+-  name: vikas
+   hosts: ios
+   gather_facts: false
+   tasks:
+    -  name: kumar
+       ios_facts:
+         gather_subset: all
+       register: hello
+    -  name: display
+       debug:
+         var: hello
